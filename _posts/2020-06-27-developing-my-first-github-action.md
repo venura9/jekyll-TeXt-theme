@@ -38,9 +38,11 @@ To make 'GitHub Actions' ready, you need to tick off few things as a part of you
 4. An `entrypoint.sh` expressing what you need to run on the container. 
 5. A Dockerfile - [[Doc](https://help.github.com/en/actions/creating-actions/dockerfile-support-for-github-actions)]
 
-For my first attempt tried to start with a vanilla alpine and quickly realised that I'm trying to re-invent the wheel. Best starting ground for azure is to use the official azure cli container. Below is the working Dockerfile content. 
+For my first attempt tried to start with a vanilla alpine and quickly realised that I'm trying to re-invent the wheel. Best starting ground for azure is to use the official azure cli container. 
 
-```
+Below is the working Dockerfile content of my action;
+
+```bash
 # Using latest might cause issues with breaking changes.
 # FROM mcr.microsoft.com/azure-cli:latest
 
@@ -82,7 +84,7 @@ E.g. Deploy to a protected Web App running on an ASE or an Azure VM.
 
 2. Remove the temporary rule after deployment is completed. 
 
-Let's look at what the `entrypoint.sh` does. 
+Let's look at what the `entrypoint.sh` does. Comments should tell you all about it!
 
 ```bash
 #!/bin/sh -l
@@ -154,7 +156,7 @@ fi
 
 - Make sure to tag the unstable releases as "This is a pre-release" to let the users know that it's not ready for consumption. 
 
-##Test
+## Test
 
 Testing is easy. All you need is a workflow that runs `on: push` for the relevant branches and test the action.
 
