@@ -1,5 +1,5 @@
 ---
-title: Hacking GitHub Actions
+title: Developing my first GitHub Action 
 comments: true
 tags: github github-actions azure security devops
 ---
@@ -25,7 +25,7 @@ I went for the reliability and decided to live with the extra time taken to buil
 
 ## Setup
 
-You need only a few things as a part of the repository;
+To make 'GitHub Actions' ready, you need to tick off few things as a part of your github repository;
 
 
 1. A `LICENSE` - A license that permits others to use the action. I've gone wit MIT
@@ -210,3 +210,8 @@ jobs:
       - name: Use local my-action
         uses: ./.github/actions/my-action
 ```
+
+Almost forgot, 
+
+- [My Action repository](https://github.com/marketplace/actions/manage-nsg)
+- [My Action in Marketplace](https://github.com/marketplace/actions/manage-nsg)
