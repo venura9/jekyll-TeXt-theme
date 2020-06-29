@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Hacking GitHub Actions
 tags: github github-actions azure security devops
 ---
 
@@ -22,7 +22,7 @@ There are two types of actions "JavaScript and Docker Container" while JavaScrip
 
 I went for the reliability and decided to live with the extra time taken to build the container. 
 
-##Setup
+## Setup
 
 You need only a few things as a part of the repository;
 
@@ -39,7 +39,7 @@ You need only a few things as a part of the repository;
 
 For my first attempt tried to start with a vanilla alpine and quickly realised that I'm trying to re-invent the wheel. Best starting ground for azure is to use the official azure cli container. Below is the working Dockerfile content. 
 
-```Dockerfile
+```
 # Using latest might cause issues with breaking changes.
 # FROM mcr.microsoft.com/azure-cli:latest
 
@@ -71,7 +71,7 @@ E.g. `FROM mcr.microsoft.com/azure-cli:2.8.0`
 Make sure your `entrypiont.sh` file is executable. Use `RUN chmod +x ./entrypoint.sh` in your `Dockerfile`
 
 
-##What
+## What
 
 My action is capable of two things. 
 
@@ -139,7 +139,7 @@ fi
 
 ```
 
-##Publish
+## Publish
 
 - Publishing is easy. Go to the releases and tick the box to "Publish this Action to the GitHub Marketplace"
 
