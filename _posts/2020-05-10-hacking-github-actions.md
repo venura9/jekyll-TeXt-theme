@@ -1,9 +1,6 @@
 ---
-layout: post
-title: "Hacking Github Actions"
-categories: GitHub
-author: "Venura Athukorala"
-meta: "github, github actions, azure, nsg, security"
+title: Welcome
+tags: github, github actions, azure, nsg, security"
 ---
 
 Github actions have already shown a lot of promise and a some distance to travel before it can stand next to its big brother Azure DevOps. When I say "big brother" they are now technically Microsoft Products. 
