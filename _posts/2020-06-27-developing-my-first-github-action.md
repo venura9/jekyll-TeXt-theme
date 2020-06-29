@@ -12,7 +12,9 @@ Common sense prevailing, it's right to market GitHub as the true multi-cloud cha
 
 In this post I'm going to explain how to create a custom action for Azure, using my experience building an action as a part of [https://githubhackathon.com](https://githubhackathon.com)
 
-> I'm in the [Winners List](https://docs.google.com/spreadsheets/d/1YL6mjJXGt3-75GejQCubsOvWwtYcGaqbJA7msnsh7Tg) :) 
+> I'm in the [Winners List](https://docs.google.com/spreadsheets/d/1YL6mjJXGt3-75GejQCubsOvWwtYcGaqbJA7msnsh7Tg) :)
+> - [My Action repository](https://github.com/marketplace/actions/manage-nsg)
+> - [My Action in Marketplace](https://github.com/marketplace/actions/manage-nsg)
 
 Actions documentation is pretty concise and clear. Below links covers the basics for you to get started;
 
@@ -214,8 +216,3 @@ jobs:
       - name: Use local my-action
         uses: ./.github/actions/my-action
 ```
-
-Almost forgot, 
-
-- [My Action repository](https://github.com/marketplace/actions/manage-nsg)
-- [My Action in Marketplace](https://github.com/marketplace/actions/manage-nsg)
