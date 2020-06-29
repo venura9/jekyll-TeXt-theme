@@ -1,5 +1,6 @@
 ---
 title: Hacking GitHub Actions
+comments: true
 tags: github github-actions azure security devops
 ---
 
