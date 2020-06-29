@@ -42,7 +42,7 @@ For my first attempt tried to start with a vanilla alpine and quickly realised t
 
 Below is the working Dockerfile content of my action;
 
-```
+```bash
 # Using latest might cause issues with breaking changes.
 # FROM mcr.microsoft.com/azure-cli:latest
 
