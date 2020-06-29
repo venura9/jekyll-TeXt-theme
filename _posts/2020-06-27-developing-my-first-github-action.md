@@ -156,6 +156,8 @@ fi
 
 - Make sure to tag the unstable releases as "This is a pre-release" to let the users know that it's not ready for consumption. 
 
+![Publish view](https://whatcloud.xyz/assets/publish-github-action.png "Publish view")
+
 ## Test
 
 Testing is easy. All you need is a workflow that runs `on: push` for the relevant branches and test the action.
