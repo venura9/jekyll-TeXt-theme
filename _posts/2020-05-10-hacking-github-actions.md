@@ -1,6 +1,6 @@
 ---
 title: Welcome
-tags: github, github actions, azure, nsg, security"
+tags: github github-actions azure security devops
 ---
 
 Github actions have already shown a lot of promise and a some distance to travel before it can stand next to its big brother Azure DevOps. When I say "big brother" they are now technically Microsoft Products. 
