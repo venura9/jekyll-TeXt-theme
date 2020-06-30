@@ -16,12 +16,12 @@ In this post I'm going to explain how to create a custom action for Azure, using
 > - [My Action repository](https://github.com/marketplace/actions/manage-nsg)
 > - [My Action in Marketplace](https://github.com/marketplace/actions/manage-nsg)
 
-Actions documentation is pretty concise and clear. Below links covers the basics for you to get started;
+Actions documentation is pretty concise and helps you to get started quickly. Below links cover the basics for you to get started;
 
 - [Getting started with GitHub Actions](https://help.github.com/en/actions/getting-started-with-github-actions)
 - [Creating GitHub Actions](https://help.github.com/en/actions/creating-actions/about-actions)
 
-There are two types of actions "JavaScript and Docker Container" while JavaScript directly runs on the runner allowing for faster execution the Docker Container allows for a consistent and reliable unit without having to worry about tools and dependencies.
+There are two types of actions "JavaScript and Docker Container". While JavaScript directly runs on the runner, allowing for faster execution, the Docker Container allows for a consistent and reliable unit without having to worry about tools and dependencies.
 
 I went for the reliability and decided to live with the extra time taken to build the container. 
 
