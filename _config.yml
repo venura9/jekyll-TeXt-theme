@@ -16,10 +16,10 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
+text_skin: # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://whatcould.xyz
+baseurl : /
 title   : WhatCloud
 description: Running your workloads on someone else's tin!
 
@@ -37,7 +37,7 @@ author:
   name      : Venura Athukorala (@venura9)
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
+  bio       : #
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : venura9 # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -117,11 +117,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: "disqus" # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: venura9-github-io # the Disqus shortname for the site
+    shortname: https-whatcloud-xyz # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -207,11 +207,11 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: true
+      sharing: false
       license: false
       aside:
         toc: false
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true
       pageview: true
 
@@ -222,4 +222,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jemoji
+  - jemoj
