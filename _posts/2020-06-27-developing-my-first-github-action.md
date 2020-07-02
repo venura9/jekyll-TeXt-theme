@@ -1,6 +1,7 @@
 ---
 title: Developing my first GitHub Action 
 comments: true
+key: anything
 tags: github github-actions azure security devops
 ---
 
