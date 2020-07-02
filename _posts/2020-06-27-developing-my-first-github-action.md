@@ -1,7 +1,7 @@
 ---
 title: Developing my first GitHub Action 
 comments: true
-key: anything
+key: 20200627
 tags: github github-actions azure security devops
 ---
 
