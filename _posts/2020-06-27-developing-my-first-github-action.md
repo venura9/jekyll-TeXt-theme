@@ -1,6 +1,7 @@
 ---
 title: Developing my first GitHub Action 
 key: 20200627
+author: Venura Athukorala
 tags: github github-actions azure security devops
 ---
 
