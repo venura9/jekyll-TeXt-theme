@@ -1,10 +1,11 @@
 ---
 title: Developing my first GitHub Action 
-comments: true
+key: 20200627
+author: Venura Athukorala
 tags: github github-actions azure security devops
 ---
 
-Github actions have already shown a lot of promise and a some distance to travel before it can stand next to its big brother 'Azure DevOps'. When I say 'big brother', they're both technically Microsoft Products now. 
+Github actions have already shown a lot of promise and some distance to travel before it can stand next to its big brother 'Azure DevOps'. When I say 'big brother', they're both technically Microsoft Products now. 
 
 Azure DevOps for historical reasons was tagged as Azure native and Azure only. But, it's not really an Azure only and I'm aware of organisations using Azure DevOps to manage their infrastructure. Don't believe me... time to take the red pill and read about the [AWS Toolkit for Microsoft Azure DevOps](https://docs.aws.amazon.com/vsts/latest/userguide/welcome.html)
 
