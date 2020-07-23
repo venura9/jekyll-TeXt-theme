@@ -101,7 +101,7 @@ Few new additions to the capability set;
 
 ### Other
 
-- [ALB Backend Pools by IP](https://docs.microsoft.com/en-us/azure/load-balancer/backend-pool-management#configuring-backend-pool-by-ip-address-and-virtual-network)
+- [Azure Load Balancer - Backend Pools by IP](https://docs.microsoft.com/en-us/azure/load-balancer/backend-pool-management#configuring-backend-pool-by-ip-address-and-virtual-network)
 - [Block Blob size increased to 200TB](https://azure.microsoft.com/en-us/updates/azure-storage-200-tb-block-blob-size-is-now-in-preview/)
 - [Announcing the general availability of Azure shared disks and new Azure Disk Storage enhancements](https://azure.microsoft.com/en-au/blog/announcing-the-general-availability-of-azure-shared-disks-and-new-azure-disk-storage-enhancements/)
 - [App Gateway - URL rewrite and wildcard host names in listener for Azure Application Gateway are now available in preview.](https://azure.microsoft.com/en-us/updates/url-rewrite-wildcard-listener-preview/)
