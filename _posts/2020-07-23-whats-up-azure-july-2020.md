@@ -13,7 +13,7 @@ Key updates for this month covers into;
 * Azure Arc
 
 
-###[Customer-initiated Storage account failover is now generally available](https://azure.microsoft.com/en-us/updates/azure-storage-account-failover-ga/)
+### [Customer-initiated Storage account failover is now generally available](https://azure.microsoft.com/en-us/updates/azure-storage-account-failover-ga/)
 
 * For GRS and RA-GRS Storage you can now trigger the failover manually without Microsoft having to detect an issue with the primary region. 
 At the point of writing this post the feature is broken and Australia doesn't yet support it. 
@@ -22,7 +22,7 @@ At the point of writing this post the feature is broken and Australia doesn't ye
 
 * [You can read about how the failover is triggered](https://docs.microsoft.com/en-au/azure/storage/common/storage-initiate-account-failover?tabs=azure-portal)
 
-###[Public Preview for Azure Monitor for VMs on Arc Enabled Servers](https://azure.microsoft.com/en-us/updates/public-preview-for-azure-monitor-for-vms-on-arc-enabled-servers/)
+### [Public Preview for Azure Monitor for VMs on Arc Enabled Servers](https://azure.microsoft.com/en-us/updates/public-preview-for-azure-monitor-for-vms-on-arc-enabled-servers/)
 
 This is effectively Azure Monitor for VMs extending to Azure Arc Instances.
 
@@ -30,7 +30,7 @@ This is effectively Azure Monitor for VMs extending to Azure Arc Instances.
 
 [Learn more about Azure Arc](https://azure.microsoft.com/en-au/services/azure-arc/#features)
 
-###[Durable Functions support for Python](https://azure.microsoft.com/en-us/updates/durable-functions-now-supports-python/)
+### [Durable Functions support for Python](https://azure.microsoft.com/en-us/updates/durable-functions-now-supports-python/)
 
 Might not make everyone excited. But,I am.
 Durable functions allow you to extend the capabilities of Azure Functions to new heights. 
