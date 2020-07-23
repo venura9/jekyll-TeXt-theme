@@ -1,17 +1,21 @@
 ---
-title: What's up Azure (July 2020)
+title: What's up Azure? (July 2020)
 key: 20200723
 author: Venura Athukorala
 tags: azure
 ---
 
-With all the partners heading into Microsoft Inspire which is the main partner event, the last 30 days have been a bit quiet with the extravagant updates which is most likely to be released in the next 30 days. 
+With all the partners heading to Microsoft Inspire (Virtual), the last 30 days have been a bit quiet with the extravagant updates which is most likely to be released in the next 30 days. 
 
-Key updates for this month covers into;
+Key updates for this month covers;
 
-* Storage 
+* Azure Storage 
 * Azure Arc
+* Azure Functions
+* KeyVaults
+* Data Lake 
 
+Let's dig in, What's Up Azure?
 
 ### [Customer-initiated Storage account failover is now generally available](https://azure.microsoft.com/en-us/updates/azure-storage-account-failover-ga/)
 
@@ -69,3 +73,46 @@ def orchestrator_function(context: df.DurableOrchestrationContext):
 
 main = df.Orchestrator.create(orchestrator_function)
 ```
+### [Azure Monitor for KeyVaults in Preview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/key-vault-insights-overview)
+
+New Section introduced in Azure Monitor. Also, avaialble under insights of individual instances. 
+![Azure Monitor KeyVaults](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/media/key-vaults-insights-overview/overview.png)
+
+
+### Azure Data Lake Storage
+
+Few new additions to the capability set; 
+
+Preview
+- Static website
+- File snapshots
+- Immutable storage
+
+GA 
+- Archive tier
+
+
+### [Azure Well Architected Framework](https://azure.microsoft.com/en-au/blog/introducing-the-microsoft-azure-wellarchitected-framework/)
+
+- Rings a bell!? - yup yup >> https://aws.amazon.com/architecture/well-architected/
+
+### Other
+
+- [ALB Backend Pools by IP](https://docs.microsoft.com/en-us/azure/load-balancer/backend-pool-management#configuring-backend-pool-by-ip-address-and-virtual-network)
+- [Block Blob size increased to 200TB](https://azure.microsoft.com/en-us/updates/azure-storage-200-tb-block-blob-size-is-now-in-preview/)
+- [Announcing the general availability of Azure shared disks and new Azure Disk Storage enhancements](https://azure.microsoft.com/en-au/blog/announcing-the-general-availability-of-azure-shared-disks-and-new-azure-disk-storage-enhancements/)
+- [App Gateway - URL rewrite and wildcard host names in listener for Azure Application Gateway are now available in preview.](https://azure.microsoft.com/en-us/updates/url-rewrite-wildcard-listener-preview/)
+- 
+
+### [Azure Pipelines Sprint 171](https://docs.microsoft.com/en-us/azure/devops/release-notes/2020/sprint-171-update)
+- Pipeline resources get additional filter with the the support for 'Tags'
+- The hosted agents how support Linux/ARM64
+- The allowed list of tasks for pipelines now can be configured at: `https://dev.azure.com/<your_org>/_settings/pipelinessettings` adding more meat to the goverenece of Azure DevOps. 
+
+
+### [Azure Pipelines Sprint 172](https://docs.microsoft.com/en-us/azure/devops/release-notes/2020/sprint-172-update)
+- Exclusive deployment lock policy - only one pipeline can can deploy to an environment at a given point of time. 
+- Pipeline resources get additional filter with the the support for 'Stages'
+- Generic webhook based triggers for YAML pipelines - Trigger deployment based on external events via webhooks. Syntax now supports a resource called `webhooks` 
+- YAML resource trigger issues support and traceability - You can now find out as to why a pipeline was not triggered. 
+- Banner for live site incidents impacting pipelines - No comments!
