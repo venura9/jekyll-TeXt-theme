@@ -28,7 +28,9 @@ At the point of writing this post the feature is broken and Australia doesn't ye
 
 ### [Public Preview for Azure Monitor for VMs on Arc Enabled Servers](https://azure.microsoft.com/en-us/updates/public-preview-for-azure-monitor-for-vms-on-arc-enabled-servers/)
 
-This is effectively Azure Monitor for VMs extending to Azure Arc Instances.
+* Azure Arc allows you to manage your on-premises infrastucutre the same we as you would manage resource on Azure. This includes your Servers, Kubernetes Clusters and Azure Data Services Running on Arc. As announced at Inspire, Azure Arc is getting closer to GA. Arc will provide number of operational benefits to end-users and partners alike. 
+
+* This feature addition effectively extends Azure Monitor for VMs to Azure Arc Instances. 
 
 ![Azure Arc](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/6673cca7-4ea2-43be-af88-11ffec6a6659.png)
 
@@ -38,8 +40,6 @@ This is effectively Azure Monitor for VMs extending to Azure Arc Instances.
 
 Might not make everyone excited. But,I am.
 Durable functions allow you to extend the capabilities of Azure Functions to new heights. 
-
-[Read More](https://docs.microsoft.com/en-au/azure/azure-functions/durable/durable-functions-overview?tabs=python)
 
 - Function Chaining
 - Fan out/fan in
@@ -73,6 +73,8 @@ def orchestrator_function(context: df.DurableOrchestrationContext):
 
 main = df.Orchestrator.create(orchestrator_function)
 ```
+[Read More about Durable Functions](https://docs.microsoft.com/en-au/azure/azure-functions/durable/durable-functions-overview?tabs=python)
+
 ### [Azure Monitor for KeyVaults in Preview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/key-vault-insights-overview)
 
 New Section introduced in Azure Monitor. Also, avaialble under insights of individual instances. 
