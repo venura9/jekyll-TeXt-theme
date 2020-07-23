@@ -5,9 +5,9 @@ author: Venura Athukorala
 tags: azure
 ---
 
-With all the partners heading to Microsoft Inspire (Virtual), the last 30 days have been a bit quiet with the extravagant updates which is most likely to be released in the next 30 days. 
+With all the partners heading to Microsoft Inspire (Virtual), the last 30 days have been a bit quiet with the extravagant updates, which is most likely to be released in the next 30 days. 
 
-Key updates for this month covers;
+As usual the updates were pleanty, with key updates for this month skewed towards;
 
 * Azure Storage 
 * Azure Arc
@@ -48,6 +48,7 @@ Durable functions allow you to extend the capabilities of Azure Functions to new
 - Human interaction
 
 E.g. Fan out/in
+
 ![Fan out/in](https://docs.microsoft.com/en-au/azure/azure-functions/durable/media/durable-functions-concepts/fan-out-fan-in.png)
 
 ```python
@@ -85,12 +86,12 @@ New Section introduced in Azure Monitor. Also, avaialble under insights of indiv
 
 Few new additions to the capability set; 
 
-Preview
+#### Preview
 - Static website
 - File snapshots
 - Immutable storage
 
-GA 
+#### GA 
 - Archive tier
 
 
@@ -104,7 +105,6 @@ GA
 - [Block Blob size increased to 200TB](https://azure.microsoft.com/en-us/updates/azure-storage-200-tb-block-blob-size-is-now-in-preview/)
 - [Announcing the general availability of Azure shared disks and new Azure Disk Storage enhancements](https://azure.microsoft.com/en-au/blog/announcing-the-general-availability-of-azure-shared-disks-and-new-azure-disk-storage-enhancements/)
 - [App Gateway - URL rewrite and wildcard host names in listener for Azure Application Gateway are now available in preview.](https://azure.microsoft.com/en-us/updates/url-rewrite-wildcard-listener-preview/)
-- 
 
 ### [Azure Pipelines Sprint 171](https://docs.microsoft.com/en-us/azure/devops/release-notes/2020/sprint-171-update)
 - Pipeline resources get additional filter with the the support for 'Tags'
