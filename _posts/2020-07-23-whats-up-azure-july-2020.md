@@ -82,7 +82,7 @@ New Section introduced in Azure Monitor. Also, avaialble under insights of indiv
 ![Azure Monitor KeyVaults](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/media/key-vaults-insights-overview/overview.png)
 
 
-### Azure Data Lake Storage
+### [Azure Data Lake Storage](https://azure.microsoft.com/en-au/updates/2020/06/?status=nowavailable,inpreview,indevelopment&query=data%20lake%20storage)
 
 Few new additions to the capability set; 
 
