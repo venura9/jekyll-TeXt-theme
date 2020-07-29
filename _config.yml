@@ -107,7 +107,7 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: "addtoany" # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -207,11 +207,11 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: false
+      sharing: true
       license: false
       aside:
         toc: false
-      show_edit_on_github: false
+      show_edit_on_github: true
       show_subscribe: true
       pageview: true
 
