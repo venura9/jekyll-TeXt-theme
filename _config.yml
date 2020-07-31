@@ -223,4 +223,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
   - jemoj
